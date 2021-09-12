@@ -4,4 +4,6 @@
 
 require "src.Application"
 
+app = Application.new()
+
 app:run { arg[0], ... }
