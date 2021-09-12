@@ -5,7 +5,7 @@ local lgi = require 'lgi'
 local Gtk = lgi.require('Gtk')
 local Handy = lgi.require('Handy')
 local Gio = lgi.require('Gio')
-
+require "src.Views.WelcomeView"
 
 Handy:init()
 
@@ -15,9 +15,23 @@ function MainWindow.new()
 
     main_window = Handy.Window {}
 
-    main_window:add(Gtk.Label {
-        label = "Hola"
-    })
+    sidebar_header = Handy.HeaderBar{
+        decoration_layout = "close:",
+        has_subtitle = false,
+        show_close_button = true,
+        hexpand = true
+    }
+    sidebar_header:get_style_context():add_class(Gtk.STYLE_CLASS_FLAT);
+
+    grid = Gtk.Grid{
+        expand = true,
+        orientation = Gtk.Orientation.VERTICAL
+    }
+
+    grid:add(sidebar_header)
+    grid:add(welcome_view)
+
+    main_window:add(grid)
 
     function main_window:on_delete_event()
     
