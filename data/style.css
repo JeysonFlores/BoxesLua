@@ -1,5 +1,9 @@
-.b{
+.main-grid {
 	padding-bottom: 50px;
 	padding-left: 120px;
 	padding-right: 120px;
+}
+
+.main-action {
+	font-size: 15px;
 }
