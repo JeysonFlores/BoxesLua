@@ -6,7 +6,7 @@
    fill="none"
    version="1.1"
    id="svg12"
-   sodipodi:docname="Boxes Logo Flat.svg"
+   sodipodi:docname="com.github.jeysonflores.boxes.svg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,9 +23,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="7.0666667"
-     inkscape:cx="8.1367925"
-     inkscape:cy="14.504717"
+     inkscape:zoom="9.9937759"
+     inkscape:cx="12.057505"
+     inkscape:cy="14.659124"
      inkscape:window-width="1366"
      inkscape:window-height="707"
      inkscape:window-x="0"
@@ -36,38 +36,53 @@
        type="xygrid"
        id="grid851" />
   </sodipodi:namedview>
-  <g
-     id="g838"
-     transform="matrix(0.08333333,0,0,0.08333333,4.3100084,3.6540873)">
-    <path
-       fill-rule="evenodd"
-       clip-rule="evenodd"
-       d="M 137.092,0.968993 2.75449,65.8217 C 1.06992,66.635 0,68.34 0,70.2104 V 229.789 c 0,1.871 1.07051,3.576 2.75449,4.389 L 137.092,299.031 c 2.677,1.292 5.798,1.292 8.475,0 l 134.337,-64.853 c 1.685,-0.813 2.754,-2.518 2.754,-4.389 V 70.2104 c 0,-1.8704 -1.07,-3.5754 -2.754,-4.3887 L 145.567,0.968993 c -2.677,-1.291991 -5.798,-1.291991 -8.475,0 z"
-       fill="#ffe58d"
-       id="path2" />
-    <path
-       fill-rule="evenodd"
-       clip-rule="evenodd"
-       d="m 282.54,70.0505 c 0,-0.9697 -0.298,-1.8879 -0.81,-2.6677 L 141.211,135.22 v 164.62 c 1.449,0 2.899,-0.324 4.237,-0.97 l 134.338,-64.852 c 1.684,-0.813 2.754,-2.518 2.754,-4.389 z"
-       fill="#ffd268"
-       id="path4" />
-    <path
-       fill-rule="evenodd"
-       clip-rule="evenodd"
-       d="M 230.333,92.1463 89.3203,24.0234 52.1484,42.041 193.478,110.269 Z"
-       fill="#fd4747"
-       id="path6" />
-    <path
-       fill-rule="evenodd"
-       clip-rule="evenodd"
-       d="m 193.359,110.115 v 52.855 c 0,1.797 1.878,2.976 3.497,2.195 L 227.46,150.39 c 1.685,-0.813 2.755,-2.518 2.755,-4.389 V 91.9921 Z"
-       fill="#fd4747"
-       id="path8" />
-    <path
-       fill-rule="evenodd"
-       clip-rule="evenodd"
-       d="M 0.810349,67.3828 C 0.298241,68.1627 0,69.0808 0,70.0505 V 229.629 c 0,1.871 1.07051,3.576 2.75449,4.389 L 137.092,298.87 c 1.338,0.646 2.788,0.969 4.237,0.969 V 135.22 Z"
-       fill="#ffc351"
-       id="path10" />
-  </g>
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M 15.734341,3.7348367 4.5395492,9.1392287 C 4.3991684,9.2070037 4.3100084,9.3490871 4.3100084,9.5049537 V 22.80317 c 0,0.155917 0.089209,0.298 0.2295408,0.36575 l 11.1947918,5.404416 c 0.223084,0.107667 0.483167,0.107667 0.70625,0 l 11.19475,-5.404416 c 0.140416,-0.06775 0.2295,-0.209833 0.2295,-0.36575 V 9.5049537 c 0,-0.1558666 -0.08917,-0.29795 -0.2295,-0.365725 l -11.19475,-5.404392 c -0.223083,-0.1076659 -0.483166,-0.1076659 -0.70625,0 z"
+     fill="#ffe58d"
+     id="path2"
+     style="stroke-width:0.0833333" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 27.855007,9.4916287 c 0,-0.080808 -0.02483,-0.157325 -0.0675,-0.2223083 L 16.077591,14.92242 v 13.718333 c 0.12075,0 0.241584,-0.027 0.353084,-0.08083 L 27.625507,23.15559 c 0.140334,-0.06775 0.2295,-0.209834 0.2295,-0.36575 z"
+     fill="#ffd268"
+     id="path4"
+     style="stroke-width:0.0833333" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M 23.504424,11.332945 11.753366,5.6560372 8.6557082,7.1575038 20.433174,12.84317 Z"
+     fill="#fd4747"
+     id="path6"
+     style="stroke-width:0.0833333" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 20.423258,12.830337 v 4.404583 c 0,0.14975 0.1565,0.248 0.291416,0.182917 l 2.550334,-1.23125 c 0.140416,-0.06775 0.229583,-0.209834 0.229583,-0.36575 v -4.500742 z"
+     fill="#fd4747"
+     id="path8"
+     style="stroke-width:0.0833333" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 4.3775375,9.2693204 c -0.042676,0.064992 -0.067529,0.1415 -0.067529,0.2223083 V 22.789837 c 0,0.155916 0.089209,0.298 0.2295408,0.36575 L 15.734341,28.55992 c 0.1115,0.05383 0.232334,0.08075 0.353084,0.08075 V 14.92242 Z"
+     fill="#ffc351"
+     id="path10"
+     style="stroke-width:0.0833333" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M 23.504424,11.332945 11.753366,5.6560372 8.6557082,7.1575038 20.433174,12.84317 Z"
+     fill="#fd4747"
+     id="path832"
+     style="stroke-width:0.0833333" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 20.423258,12.830337 v 4.404583 c 0,0.14975 0.1565,0.248 0.291416,0.182917 l 2.550334,-1.23125 c 0.140416,-0.06775 0.229583,-0.209834 0.229583,-0.36575 v -4.500742 z"
+     fill="#fd4747"
+     id="path834"
+     style="stroke-width:0.0833333" />
 </svg>
