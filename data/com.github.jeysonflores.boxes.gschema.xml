@@ -24,5 +24,11 @@
 		<summary>Window height</summary>
 		<description>The saved height of the main window</description>
 	</key>
+
+	<key name="first-launch" type="i">
+		<default>1</default>
+		<summary>First launch</summary>
+		<description>Indicates if it's the first time the app is launched</description>
+	</key>
  </schema>
 </schemalist>

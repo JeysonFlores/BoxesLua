@@ -15,6 +15,10 @@ function MainWindow.new()
 
     main_window = Handy.Window {}
 
+    local settings = Gio.Settings {
+        schema_id = "com.github.jeysonflores.boxes"
+    }
+
     sidebar_header = Handy.HeaderBar{
         decoration_layout = "close:",
         has_subtitle = false,
@@ -29,7 +33,14 @@ function MainWindow.new()
     }
 
     grid:add(sidebar_header)
-    grid:add(welcome_view)
+
+    if settings:get_int("first-launch") == 1 then
+        grid:add(welcome_view)
+        --settings:set_int("first-launch", 0)
+    else 
+        grid:add(Gtk.Label {label="It's not first launch"})
+    
+    end
 
     main_window:add(grid)
 
